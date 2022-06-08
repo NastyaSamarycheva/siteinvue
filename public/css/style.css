@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app, h1, h3 {
+  margin: 20px auto 20px auto;
+  width: 50vh;
+  text-align: center;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 25px;
+  border: 2px solid silver;
+  background-color: #000;
+  border-radius: 10px;
+  display: inline;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {background-color: #fff; color: #000}
+
+#item {
+  list-style-type: none;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+}
